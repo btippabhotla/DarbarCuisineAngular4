@@ -1,0 +1,30 @@
+.bg-color{
+	background: #823855;
+}
+
+.headerStyle{
+	text-align:center;
+	color:white;
+}
+
+.menuText:after{
+	content: "Menu";
+}
+
+.close{
+	color:white;
+}
+
+.menuCenter{
+	text-align:center;
+}
+.menuStyle{
+	display:inline-block;
+	border: 1px solid #C70039;
+	border-radius: 5px;
+	padding:10px;
+	color:white;
+	font-weight:bold;
+	margin:10px;
+}
+

@@ -1,0 +1,21 @@
+	<div class="pos-f-t">
+  		<nav class="navbar navbar-dark bg-color">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleCollapse()">
+	  			<span [hidden]="collapse=='open'" class="menuText"></span>
+				<span [hidden]="collapse=='closed'" class="close">&times;</span>
+			</button>
+			<div class="headerStyle">
+  				<h1>{{title.name}}</h1>  
+			</div>
+			<span></span>
+  		</nav>
+
+  		<div class="collapse" id="navbarToggleExternalContent" [@collapse]="collapse">
+			<div class="bg-dark p-4">
+		  		<ul class="menuCenter">
+	  				<li class="menuStyle" *ngFor="let Menus of Menu;">{{Menus.name}}</li>
+	  			</ul>
+			</div>
+  		</div>  		
+	</div>  
+
