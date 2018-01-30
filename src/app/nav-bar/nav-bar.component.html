@@ -13,9 +13,10 @@
   		<div class="collapse" id="navbarToggleExternalContent" [@collapse]="collapse">
 			<div class="bg-dark p-4">
 		  		<ul class="menuCenter">
-	  				<li class="menuStyle" *ngFor="let Menus of Menu;">{{Menus.name}}</li>
+	  				<li class="menuStyle" *ngFor="let Menus of Menu;"><a routerLink="/{{Menus.name}}">{{Menus.name}}</a></li>	  				
 	  			</ul>
 			</div>
-  		</div>  		
+  		</div>  
+  		<router-outlet></router-outlet>
 	</div>  
 
