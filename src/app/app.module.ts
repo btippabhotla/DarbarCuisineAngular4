@@ -27,7 +27,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserAnimationsModule,
     AppRoutingModule,
     RouterModule.forRoot([
-        { path:'', component:HomeComponent},
+        { path:'**', redirectTo:'Home', pathMatch:'full'},
         { path:'contactus', component:ContactUsComponent },
         { path:'Vegetarian Items', component:VegetarianItemsComponent },
         { path:'Non-vegetarian Items', component:NonVegetarianItemsComponent }
