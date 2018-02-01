@@ -8,6 +8,5 @@ export const Menus: Menu[] = [
   	{ id: 14, name: 'Sides & Desserts' },
   	{ id: 15, name: 'Wine & Beer' },
   	{ id: 16, name: 'Catering' },
-  	{ id: 17, name: 'About Darbar' },
-  	{ id: 18, name: 'Location' }
+  	{ id: 17, name: 'Contact Us' }
 ];

@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NonVegetarianItemsComponent } from './non-vegetarian-items/non-vegetarian-items.component';
 import { VegetarianItemsComponent } from './vegetarian-items/vegetarian-items.component';
+import { SidesAndDessertsComponent } from './sides-and-desserts/sides-and-desserts.component';
 import { AppRoutingModule } from './app-routing.module';
 
 
@@ -20,7 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     ContactUsComponent,
     VegetarianItemsComponent,
-    NonVegetarianItemsComponent
+    NonVegetarianItemsComponent,
+    SidesAndDessertsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { AppRoutingModule } from './app-routing.module';
         { path:'**', redirectTo:'Home', pathMatch:'full'},
         { path:'contactus', component:ContactUsComponent },
         { path:'Vegetarian Items', component:VegetarianItemsComponent },
-        { path:'Non-vegetarian Items', component:NonVegetarianItemsComponent }
+        { path:'Non-vegetarian Items', component:NonVegetarianItemsComponent },
+        { path:'Sides & Desserts', component:SidesAndDessertsComponent}
       ])
   ],
   providers: [],

@@ -1,5 +1,5 @@
-.vegBack{
-	background-image: url("vegetarian.jpg");
+.sideBack{
+	background-image: url("Veg-Samosa.jpg");
 }
 
 .items{
@@ -12,10 +12,6 @@ h2{
 	background: #FFF;
 	color:#0033C7;
 	font-weight: bold;
-}
-
-h5{
-	color:#FF0000;
 }
 
 .thumbnail{
@@ -35,5 +31,4 @@ footer{
 	color:#0033C7;
 	font-weight: bold;
 }
-
 

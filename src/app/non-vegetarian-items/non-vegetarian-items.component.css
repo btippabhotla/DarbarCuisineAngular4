@@ -1,3 +1,7 @@
+.nonVegBack{
+	background-image: url("non-vegetarian-item.jpg");
+}
+
 .items{
 	text-align:center;
 	margin:0em 6em 0em 6em;
@@ -5,10 +9,9 @@
 
 h2{
 	margin: 1em 0em 1em 0em;
+	background: #FFF;
 	color:#0033C7;
 	font-weight: bold;
-	border-bottom:dashed;
-	border-top:dashed;
 }
 
 h5{
@@ -24,5 +27,12 @@ h5{
 
 .caption{
 	text-align:center;
+}
+
+footer{
+	margin: 3em 0em 1em 0em;
+	background: #FFF;
+	color:#0033C7;
+	font-weight: bold;
 }
 
