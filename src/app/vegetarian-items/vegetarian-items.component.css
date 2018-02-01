@@ -10,8 +10,9 @@
 h2{
 	margin: 1em 0em 1em 0em;
 	background: #FFF;
-	color:#0033C7;
+	color:#C70039;
 	font-weight: bold;
+	border-bottom: 3px solid #C70039;
 }
 
 h5{
@@ -32,8 +33,9 @@ h5{
 footer{
 	margin: 3em 0em 1em 0em;
 	background: #FFF;
-	color:#0033C7;
+	color:#C70039;
 	font-weight: bold;
+	border-top:3px solid #C70039;
 }
 
 
