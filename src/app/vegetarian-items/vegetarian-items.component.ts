@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { vegetarianMenu } from './vegetarian-items.component.data';
+import { Vegitems } from './vegetarian-items.component.itemison';
 
 @Component({
   selector: 'app-vegetarian-items',
@@ -7,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VegetarianItemsComponent implements OnInit {
 
-  constructor() { }
+	vegetarianMenu=Vegitems;	
+  	
+  	constructor() { }
 
-  ngOnInit() {
-  }
-
+  	ngOnInit() {}
 }

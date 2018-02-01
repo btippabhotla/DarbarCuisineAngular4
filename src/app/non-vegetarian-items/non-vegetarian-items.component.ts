@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { nonvegetarianMenu } from './non-vegetarian-items.component.data';
+import { nonVegitems } from './non-vegetarian-items.component.itemjson';
 
 @Component({
   selector: 'app-non-vegetarian-items',
@@ -7,9 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NonVegetarianItemsComponent implements OnInit {
 
-  constructor() { }
+	nonvegetarianMenu=nonVegitems;
+  	constructor() { }
 
-  ngOnInit() {
-  }
-
+  	ngOnInit() {}
 }

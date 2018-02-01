@@ -1,3 +1,32 @@
 .vegItems{
-	background-image: url("vegetarian.jpg");
+	background-image: url("vegetarian.jpg") no-repeat;
 }
+
+.items{
+	text-align:center;
+	margin:0em 6em 0em 6em;
+}
+
+h2{
+	margin: 1em 0em 1em 0em;
+	color:#0033C7;
+	font-weight: bold;
+	border-bottom:dashed;
+	border-top:dashed;
+}
+
+h5{
+	color:#0033C7;
+}
+
+.thumbnail{
+	border: 2px solid #C70039;
+	border-radius: 5px;
+	margin:2em 0em 0em 0em;
+	background:#FEF9E7;
+}
+
+.caption{
+	text-align:center;
+}
+

@@ -1,11 +1,17 @@
-<div class="vegItems">
-	<div class="row" *ngFor="let vegitems of vegetarianMenu;">
-  		<div class="col-sm-6 col-md-4" >
-    		<div class="thumbnail">
+<div class="items">
+	<h2>Vegetarian Entrees</h2>
+	<h5>Includes Naan, Rice, Daal and Raita</h5>
+	<div class="row">		
+  		<div class="col-sm-6 col-md-4" *ngFor="let vegitems of vegetarianMenu">
+    		<div class="thumbnail">    			
       			<div class="caption">
-        			<h3>{{vegetarianMenu.Name}}</h3>
-        			<p>{{vegetarianMenu.Description}}</p>
-        			<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        			<h4>{{vegitems.Name}}</h4>
+        			<p>{{vegitems.Description}}</p>
+        			<p>Price: {{vegitems.Price}}
+        			<p>
+        				<a href="#" class="btn btn-primary" role="button">Preview</a> 
+        				<a href="#" class="btn btn-success" role="button">Add To Cart</a>
+        			</p>
       			</div>
     		</div>
   		</div>

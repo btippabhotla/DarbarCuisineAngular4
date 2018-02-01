@@ -1,3 +1,19 @@
-<p>
-  non-vegetarian-items works!
-</p>
+<div class="items">
+	<h2>Non-Vegetarian Entrees</h2>
+  <h5>Includes Naan, Rice, Daal and Raita</h5>
+	<div class="row">		
+  		<div class="col-sm-6 col-md-4" *ngFor="let nonVegitems of nonvegetarianMenu">
+    		<div class="thumbnail">    			
+      			<div class="caption">
+        			<h4>{{nonVegitems.Name}}</h4>
+        			<p>{{nonVegitems.Description}}</p>
+        			<p>Price: {{nonVegitems.Price}}
+        			<p>
+        				<a href="#" class="btn btn-primary" role="button">Preview</a> 
+        				<a href="#" class="btn btn-success" role="button">Add To Cart</a>
+        			</p>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+</div>
