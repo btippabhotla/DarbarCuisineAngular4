@@ -30,7 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule,
     RouterModule.forRoot([
         { path:'**', redirectTo:'Home', pathMatch:'full'},
-        { path:'contactus', component:ContactUsComponent },
+        { path:'Contact Us', component:ContactUsComponent },
         { path:'Vegetarian Items', component:VegetarianItemsComponent },
         { path:'Non-vegetarian Items', component:NonVegetarianItemsComponent },
         { path:'Sides & Desserts', component:SidesAndDessertsComponent}
